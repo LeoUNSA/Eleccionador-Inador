@@ -1,4 +1,4 @@
-# Estilos de Programacion
+# Estilos de Programacion - AccessResults
 
 ## Monolitico:
 Todo el codigo esta escrito en un solo archivo y exportado como un solo modulo. Esta es una caracteristica de este estilo, donde toda la logica esta contenida dentro de una sola unidad.
@@ -24,7 +24,7 @@ Este estilo esta caracterizado por pasar una función de devolución de llamada 
 
 Aqui, la funcion setResultados(data) es una funcion de llamada (callback) que es pasada a then() y es ejecutada tras obtener la respuesta de la funcion obtenerResultadosReales().
 
-# Practicas de Codificacion Legible
+# Practicas de Codificacion Legible - AccessResults
 
 ## Comentarios y documentacion:
 Dado que este es un trabajo grupal, es importante el agregar comentarios que orienten a los demas desarrolladores a la hora de interactuar con otros modulos.
@@ -60,7 +60,7 @@ El usar nombres autoexplicativos facilita el entendimiento del codigo para los o
 
 ![image](https://github.com/LeoUNSA/Eleccionador-Inador/assets/104027221/7783cfd5-a258-44ff-afb4-041758253709)
 
-# Principios Solid:
+# Principios Solid - AccessResults
 Debido a la naturaleza del lenguaje en el que se esta trabajando el codigo (siendo react un lenguaje de tipo funcional), la aplicacion de los principios SOLID que estan principalmente presentes en la programacion orientada a objetos, no se puede realizar de la misma manera que en  estos ultimos. Sin embargo, de cierto modo estan presentes usando cierta abstraccion conceptual. Por ejemplo el SRP y ISP por la distribucion del proyecto en modulos esta inherentemente presente, ya que cada modulo realiza una tarea en especifico y seran posteriormente integrados.
 
 # Comentarios adicionales:
